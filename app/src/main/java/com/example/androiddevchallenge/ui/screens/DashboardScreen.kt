@@ -43,7 +43,7 @@ import java.util.Locale
 @Composable
 fun DashboardScreen() {
     Scaffold(
-        modifier = Modifier.padding(top = 56.dp),
+        modifier = Modifier.padding(top = 24.dp),
         backgroundColor = MaterialTheme.colors.background
     ) { innerPadding ->
         DashboardContent(Modifier.padding(innerPadding))
